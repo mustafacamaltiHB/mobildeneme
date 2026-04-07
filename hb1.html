@@ -2,22 +2,6 @@
   <head>
     <meta name="apple-itunes-app" content="app-id=1068841746">
     <meta name="google-play-app" content="app-id=com.tmobtech.halkbank">
-    <script type="text/javascript" src="jquery.min.js"></script>
-    <script src="jquery.smartbanner.js"></script>
-    <script>
-        $(function () {
-            $.smartbanner({
-                title: 'Halkbank Mobil',
-                author: 'T.C. Halkbank A.Ş.',
-                price: '',
-                icon: '',
-                appStoreLanguage: 'tr',
-                button: 'GÖSTER',
-                daysHidden: 0,
-                daysReminder: 0
-            });
-        });
-    </script>
     <style>
       #smartbanner {
           position: absolute;
@@ -226,5 +210,21 @@
   </head>
   <body>
     <h1>Mobil Uygulama Yönlendirme Smartbanner Test!</h1>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script src="jquery.smartbanner.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $.smartbanner({
+                title: 'Halkbank Mobil',
+                author: 'T.C. Halkbank A.Ş.',
+                price: '',
+                icon: '',
+                appStoreLanguage: 'tr',
+                button: 'GÖSTER',
+                daysHidden: 0,
+                daysReminder: 0
+            });
+        });
+    </script>
   </body>
 </html>
